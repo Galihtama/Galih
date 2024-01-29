@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "inika", serif;
+}
+
+body {
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-style: 0;
+    margin-top: 0;
+}
+
+.container {
+    width: 1349px;
+    height: 2234px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    border: 0cm;
+    display: flex;
+    margin-top: 0;
+}
+
+.pembungkus {
+    width: 1257px;
+    height: 1900px;
+    background-color: transparent;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+
+.hteks {
+    font-size: 65px;
+    color: #07F0FF;
+    text-align: center;
+    font-weight: 700;
+}
+
+.lrpl {
+    background: url(ijo.jpg);
+    background-size: 355px 469px;
+    width: 355px;
+    height: 469px;
+    box-sizing: border-box;
+    margin-left: 448px;
+    margin-top: 20px;
+}
+
+.mdipelajari {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.teks {
+    width: 1257px;
+    height: 1200px;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.tool {
+    margin-left: 71px;
+}
+
+.ygdibuat {
+    margin-left: 71px;
+}
+
+.figma {
+    margin-left: 46px;
+}
+
+.ftool {
+    margin-left: 71px;
+}
+
+.Taplikasi {
+    margin-left: 71px;
+}
+
+.berupa {
+    margin-left: 71px;
+}
+
+.html {
+    margin-left: 70px;
+}
+
+.css {
+    margin-left: 48px;
+
+}
+
+.and {
+    margin-left: 70px;
+}
+
+.htss {
+    margin-left: 48px;
+
+}
+
+.box {
+    margin-left: 70px;
+}
+
+.back {
+    border-radius: 10px;
+    width: 243px;
+    height: 73px;
+    margin-left: 510px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.back a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 243px;
+    height: 73px;
+    background-color: #636265;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
