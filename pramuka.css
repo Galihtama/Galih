@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+*  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "inika", serif;
+    
+}
+
+body {
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-style: 0;
+    margin-top: 0;
+}
+
+.container {
+    width: 1349px;
+    height: 1139px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    border: 0cm;
+    display: flex;
+    margin-top: 0;
+}
+
+.frame1 {
+    width: 1189px;
+    height: 767px;
+    display: flex;
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 160px;
+    justify-content: space-between;
+}
+
+.foto {
+    width: 405px ;
+    height: 767px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.foto img {
+    width: 405px ;
+    height: 767px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.tulisan {
+    width: 735px;
+    height: 767px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.judul {
+    height: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul a {
+    font-size: 50px;
+    color: #EDB86A;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.simbol {
+    height: 229px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.okeh {
+    font-size: 35px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.deskripsi {
+    height: 332px;
+    box-sizing: border-box;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.gali {
+    display: flex;
+    margin-right: 237px;
+}
+
+.jabatan {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.pra {
+    margin-right: 230px;
+    
+}
+
+.tugas {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.isi {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+.motto {
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.belum {
+    display: flex;
+    margin-left: 140px;
+}
+
+.back {
+    border-radius: 10px;
+    width: 243px;
+    height: 73px;
+    margin-left: 530px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.back a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 243px;
+    height: 73px;
+    background-color: #636265;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
