@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "inika", serif;
+}
+
+body {
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2992px;
+    border: 0;
+    border-style: 0;
+    background : linear-gradient(#25D216,#FF0707);
+}
+.raper {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    font-size: 35px;
+    font-weight: 700;
+    width: 1349px;
+    height: 75px;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    color: #25D216;
+    padding-left: 120px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 25px;
+    margin-right: 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+
+.Container {
+    width: 1349px;
+    height: 2992px;
+    background-position: center;
+    background-size: cover;
+    border: 0cm;
+    background-color: black;
+}
+
+@media only screen and (max-width: 464px) {
+    .Container {
+        width: 100%;
+        display: block;
+    }
+}
+
+.home {
+    padding-left: 20px;
+    width: 100%;
+    height: 643px;
+    display: flex;
+    box-sizing: border-box;
+    background: transparent;
+}
+/* 
+@media (max-witdh: 464px) {
+    .home {
+        width: 100%;
+        display: block;
+    }
+} */
+
+.frame1 {
+    width: 1255px;
+    height: 416px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 40px;
+    background-color: transparent;
+}
+
+.des {
+    background-color: transparent;
+    justify-content: right;
+    width: 743px;
+    height: 416px;
+}
+
+.hello {
+    font-size: 60px;
+    color: #07F0FF;
+    font-weight: 700;
+    background-color: transparent;
+    display: flex;
+    margin-top: 35px;
+}
+
+.student {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+    background-color: transparent;
+    display: flex;
+}
+
+.student b {
+    color: #FF0707;
+    padding-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.lokhp {
+    background-color: transparent;
+    width: 743px;
+    height: 53px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 110px;
+}
+.lokasi {
+    width: 475px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.lokasi a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+.hp {
+    width: 150px;
+    display: flex;
+    align-items: end;
+    background-color: transparent;
+    padding-right: 90px;
+}
+
+.hp img {
+    width: 28.89px;
+    height: 53px;
+    border-radius: 5px;
+}
+
+.hp a {
+    font-family: "inter" , sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+.garis {
+    width: 668px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.ku {
+    width: 339px;
+    height: 416px;
+    display: flex;
+    margin-left: 155px;
+    align-items: center;
+
+}
+
+.about {
+    background: transparent;
+    height: 612px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0;
+    border-width: 0;
+}
+
+.frame2 {
+    width: 1200px;
+    height: 459px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 60px;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.saya {
+    border-radius: 10px;
+    width: 316px;
+    height: 459px;
+    box-sizing: border-box;
+    
+}
+
+.saya img {
+    width: 316px;
+    height: 459px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.deskripsi {
+    width: 750px;
+    height: 459px;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.heading {
+    background-color: transparent;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.firtsname {
+    color: #FF0707;
+    font-size: 65px;
+    display: flex;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.lastname {
+    color: #07F0FF;
+    font-size: 65px;
+    display: flex;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.deksingkat {
+    font-size: 36px;
+    color: white;
+    display: flex;
+    margin-top: 40px;
+}
+
+.pengenalan {
+    font-size: 36px;
+    color: white;
+
+}
+
+.name {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.gal {
+    margin-left: 221px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.ttl {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.kelas {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.class {
+    margin-left: 222px;
+    display: flex;
+    
+}
+
+.hoby {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sng {
+    margin-left: 213px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.education {
+    width: 100%;
+    height: 568px;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+}
+
+.frame3 {
+    width: 1200px;
+    height: 459px;
+    box-sizing: border-box;
+    margin-top: 55px;
+    margin-left: 75px;
+    background-color: transparent;
+}
+
+.educa {
+    width: 1200px;
+    height: 65px;
+    font-size: 65px;
+    color: #07F0FF;
+    font-weight: 700;
+    background-color: transparent;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.list {
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list ul {
+    list-style-type: square;
+    font-size: 40px;
+    color: white;
+}
+
+.experience {
+    border: 0;
+    width: 100%;
+    height: 660px;
+    background-color: transparent;
+    display: flex;
+
+}
+
+.frame4 {
+    width: 1189px;
+    height: 536px;
+    background-color: transparent;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.jud {
+    font-size: 65px;
+    font-weight: 700;
+    align-items: center;
+    background-color: transparent;
+    height: 65px;
+    width: 1189px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.first {
+    color: #07F0FF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.las {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left:15px ;
+}
+
+.las a {
+    color: #FF0707;
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+}
+
+.softpram {
+    background-color: transparent;
+    height: 238px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.software {
+    background: url('software.png');
+    width: 447px;
+    height: 238px;
+    border-radius: 10px;
+}
+
+.pramuka {
+    background: url('pramuka.png');
+    width: 447px;
+    height: 238px;
+    border-radius: 10px;
+}
+
+.sopra {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 55px;
+
+}
+
+.ware {
+    margin-left: 60px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ware a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.ka {
+    margin-right: 60px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ka a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact {
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 507px;
+    margin-top: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.frame5 {
+    width: 905px;
+    height: 428px;
+    background-color: transparent;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.tebal {
+    color: #07F0FF;
+    font-size: 65px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 40px;
+
+}
+
+.bcontact {
+    background: transparent;
+    box-sizing: border-box;
+    width: 905px;
+    height: 228px;
+    margin-top: 70px;
+    
+}
+
+.igfb {
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    font-family: "inter" , sans-serif;
+    background-color: transparent;
+}
+
+.ig {
+    height: 66px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ig img {
+    display: flex;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+}
+
+.ig a {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    margin-left: 15px;
+}
+
+.fb {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 60px;
+}
+
+.fb img {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+}
+
+.fb a {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    margin-left: 15px;
+}
+
+.wayt {
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+.wa {
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.wa img {
+    display: flex;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+}
+
+.wa a {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    margin-left: 15px;
+}
+
+.yt {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 60px;
+}
+
+.yt img {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+    margin-right: 17px;
+}
+
+.yt a {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    margin-right: 90px;
+}
