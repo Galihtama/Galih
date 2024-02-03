@@ -212,36 +212,21 @@ body{
 }
 
 .heading {
-    background-color: transparent;
-    height: 65px;
-    display: flex;
+    font-size: 60px;
+    color: #07F0FF;
     align-items: center;
+    text-align: center;
     margin-top: 60px;
 }
 
-.firtsname {
+.heading span {
     color: #FF0707;
-    font-size: 65px;
-    display: flex;
-    font-weight: 700;
-    text-align: center;
-    margin-left: 200px;
-}
-
-.lastname {
-    color: #07F0FF;
-    font-size: 65px;
-    display: flex;
-    font-weight: 700;
-    text-align: center;
-    margin-left: 20px;
 }
 
 .deksingkat {
-    font-size: 36px;
     color: white;
-    display: flex;
-    margin-top: 40px;
+    font-size: 36px;
+    margin-top: 30px;
 }
 
 .pengenalan {
@@ -591,3 +576,357 @@ body{
     font-family: "inter", sans-serif;
     margin-right: 90px;
 }
+
+
+/* media query */
+
+/* mobile phone */
+@media screen and (max-width:464px) {
+    .raper {
+        justify-content: left;
+        display: block;
+        align-items: center;
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        height: 5%;
+        background-color: red;
+        z-index: -9999;
+    }
+    
+    .logo {
+        display: block;
+        color: #25D216;
+        padding-left: 40px;
+    }
+    
+    .navigation {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigation li {
+        list-style-type: none;
+        padding: 25px;
+        margin-right: 10px;
+    }
+    
+    .navigation li a {
+        text-decoration: none;
+        font-size: 35px;
+        color: white;
+    }
+    
+    /* awal mula home */
+
+    .Container {
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        border: 0cm;
+        background-color: black;
+    }
+    
+    
+    
+    .home {
+        padding-left: 0;
+        width: 100%;
+        height: 643px;
+        display: flex;
+        box-sizing: border-box;
+        background: transparent;
+    }
+    
+    .frame1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    
+    .des {
+        background-color: transparent;
+        justify-content: right;
+        width: 100%;
+        height: auto;
+    }
+    
+    .hello {
+        font-size: 40px;
+        color: #07F0FF;
+        font-weight: 700;
+        background-color: transparent;
+        display: block;
+        margin-top: 35px;
+    }
+    
+    .student {
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        margin-top: 30px;
+        background-color: transparent;
+        display: flexbox;
+    }
+    
+    .student b {
+        color: #FF0707;
+        padding-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+    .lokhp {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        align-items: center;
+        display: block;
+        margin-top: 40px;
+    }
+    .lokasi {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .lokasi a {
+        text-decoration: none;
+        color: white;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .lokasi img {
+        width: 20.10px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .hp {
+        width: 100%;
+        display: flex;
+        align-items: end;
+        background-color: transparent;
+        padding-right: 0;
+        margin-top: 10px;
+    }
+    
+    .hp img {
+        width: 20.10px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    
+    .hp a {
+        font-family: "inter" , sans-serif;
+        color: white;
+        margin-left: 10px;
+    }
+    
+    .garis {
+        width: 95%;
+        height: 2px;
+        margin-top: 10px;
+        background-color: white;
+    }
+    
+    .ku {
+        width: 239px;
+        height: 226px;
+        display: block;
+        margin-left: 0px;
+        align-items: center;
+        padding: 40px;
+        margin-left: 40px;
+    }
+
+    .ku img {
+        width: 239px;
+        height: 266px;
+    }
+    
+    /* akhir home */
+
+    /* awal about  */
+    .about {
+        background: transparent;
+        height: auto;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 0;
+        border-width: 0;
+    }
+    
+    .frame2 {
+        width: 100%;
+        height: auto;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-left: 0;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    
+    .saya {
+        border-radius: 10px;
+        width: 239px;
+        height: 296px;
+        box-sizing: border-box;
+        display: block;
+        padding: 40px;
+        margin-left: 40px;
+    }
+    
+    .saya img {
+        width: 239px;
+        height: 296px;
+        box-sizing: border-box;
+        display: block;
+    }
+    
+    .deskripsi {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        box-sizing: border-box;
+        font-weight: 500;
+    }
+
+    .heading {
+        font-size: 35px;
+        color: #07F0FF;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    
+    .heading span {
+        color: #FF0707;
+    }
+    
+    .deksingkat {
+        color: white;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .pengenalan {
+        font-size: 25px;
+        color: white;
+        margin-top: 0;
+    }
+    
+    .name {
+        display: flex;
+        box-sizing: border-box;
+        
+    }
+    
+    .gal {
+        margin-left: 108px;
+        display: flex;
+        box-sizing: border-box;
+        
+    }
+    
+    .ttl {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: right;
+    }
+
+    .pkl {
+        margin-left: 0px;
+        justify-content: right;
+        padding-left: 0;
+    }
+
+    .pkl span {
+        margin-left: 10px;
+    }
+    
+    .kelas {
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .class {
+        margin-left: 108px;
+        display: flex;
+        
+    }
+    
+    .hoby {
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .sng {
+        margin-left: 100px;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    /* akhir about */
+
+    /* awal education */
+    .education {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        box-sizing: border-box;
+        display: flex;
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .frame3 {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin-top: 55px;
+        margin-left: 35px;
+        background-color: transparent;
+    }
+    
+    .educa {
+        width: 100%;
+        height: auto;
+        font-size: 35px;
+        color: #07F0FF;
+        font-weight: 700;
+        background-color: transparent;
+        display: block;
+        box-sizing: border-box;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+    
+    .list {
+        height: auto;
+        background-color: transparent;
+        display: block;
+        justify-content: right;
+        margin-top: 30px;
+    }
+    
+    .list ul {
+        list-style-type: square;
+        font-size: 23px;
+        color: white;
+    }
+    
+    /* akhir education */
+} 
