@@ -636,7 +636,7 @@ body{
     .home {
         padding-left: 0;
         width: 100%;
-        height: 643px;
+        height: auto;
         display: flex;
         box-sizing: border-box;
         background: transparent;
@@ -660,7 +660,7 @@ body{
     }
     
     .hello {
-        font-size: 40px;
+        font-size: 25px;
         color: #07F0FF;
         font-weight: 700;
         background-color: transparent;
@@ -669,7 +669,7 @@ body{
     }
     
     .student {
-        font-size: 40px;
+        font-size: 25px;
         color: white;
         font-weight: 700;
         margin-top: 30px;
@@ -705,12 +705,12 @@ body{
         text-decoration: none;
         color: white;
         margin-left: 0;
-        font-size: 15px;
+        font-size: 9px;
     }
 
     .lokasi img {
         width: 20.10px;
-        height: 35px;
+        height: 25px;
         border-radius: 5px;
     }
     .hp {
@@ -724,18 +724,19 @@ body{
     
     .hp img {
         width: 20.10px;
-        height: 35px;
+        height: 25px;
         border-radius: 5px;
     }
     
     .hp a {
         font-family: "inter" , sans-serif;
         color: white;
-        margin-left: 10px;
+        margin-left: 4px;
+        font-size: 9px;
     }
     
     .garis {
-        width: 95%;
+        width: 75%;
         height: 2px;
         margin-top: 10px;
         background-color: white;
@@ -747,8 +748,8 @@ body{
         display: block;
         margin-left: 0px;
         align-items: center;
-        padding: 40px;
-        margin-left: 40px;
+        padding-top: 18px;
+        margin-left: 19px;
     }
 
     .ku img {
@@ -929,4 +930,122 @@ body{
     }
     
     /* akhir education */
+
+    /* awal experience */
+    .experience {
+        border: 0;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: block;
+    
+    }
+    
+    .frame4 {
+        width: 90%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    
+    .jud {
+        font-size: 35px;
+        font-weight: 700;
+        background-color: transparent;
+        height: auto;
+        width: 90%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    
+    .first {
+        color: #07F0FF;
+        display: flex;
+    }
+    
+    .las {
+        color: white;
+        display: flex;
+        margin-left: 0px ;
+        margin-right: 20px;
+    }
+    
+    .las a {
+        color: #FF0707;
+        margin-left: 8px;
+        display: flex;
+    }
+    
+    .softpram {
+        background-color: transparent;
+        height: 238px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    
+    .software {
+        background: url('software.png');
+        width: 447px;
+        height: 238px;
+        border-radius: 10px;
+    }
+    
+    .pramuka {
+        background: url('pramuka.png');
+        width: 447px;
+        height: 238px;
+        border-radius: 10px;
+    }
+    
+    .sopra {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 55px;
+    
+    }
+    
+    .ware {
+        margin-left: 60px;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .ware a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    .ka {
+        margin-right: 60px;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .ka a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    .contact {
+        background-color: transparent;
+        box-sizing: border-box;
+        height: 507px;
+        margin-top: 0;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    
+    /* akhir experience */
 } 
