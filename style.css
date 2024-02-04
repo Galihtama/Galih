@@ -600,7 +600,7 @@ nav ul li a:hover {
 /* media query */
 
 /* mobile phone */
-@media screen and (max-width:338px) {
+@media screen and (max-width:464px) {
     .menu-toggle {
         display: flex;
     }
