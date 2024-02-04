@@ -606,7 +606,7 @@ nav ul li a:hover {
     }
 
     nav {
-        max-width: 421px;
+        max-width: 350px;
         width: 100%;
         display: flex;
         background-color: black ;
