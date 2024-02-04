@@ -600,13 +600,13 @@ nav ul li a:hover {
 /* media query */
 
 /* mobile phone */
-@media screen and (max-width:464px) {
+@media screen and (max-width:338px) {
     .menu-toggle {
         display: flex;
     }
 
     nav {
-        max-width: 350px;
+        max-width: 338px;
         width: 100%;
         display: flex;
         background-color: black ;
@@ -798,7 +798,7 @@ nav ul li a:hover {
         display: block;
         box-sizing: border-box;
         margin-top: 0;
-        margin-left: 40px;
+        margin-left: 20px;
         justify-content: space-between;
         background-color: transparent;
     }
@@ -928,8 +928,8 @@ nav ul li a:hover {
         width: 100%;
         height: auto;
         box-sizing: border-box;
-        margin-top: 0;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
         background-color: transparent;
     }
     
@@ -948,7 +948,7 @@ nav ul li a:hover {
     }
     
     .list {
-        max-width: 320px;
+        max-width: 250px;
         width: 100%;
         height: auto;
         background-color: transparent;
@@ -980,8 +980,8 @@ nav ul li a:hover {
         width: 100%;
         height: auto;
         background-color: transparent;
-        margin-top: 0;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 0px;
     }
     
     .jud {
@@ -1065,8 +1065,8 @@ nav ul li a:hover {
         width: 100%;
         height: auto;
         background-color: transparent;
-        margin-top: 0;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 0px;
     }
     
     .tebal {
@@ -1077,7 +1077,7 @@ nav ul li a:hover {
         font-weight: 700;
         align-items: center;
         margin-top: 10px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     
     .bcontact {
@@ -1092,7 +1092,7 @@ nav ul li a:hover {
     .igfb {
         max-width: 320px;
         width: 100%;
-        padding-left: 20px;
+        padding-left: 10px;
         display: block;
         box-sizing: border-box;
         font-family: "inter" , sans-serif;
@@ -1152,7 +1152,7 @@ nav ul li a:hover {
         box-sizing: border-box;
         background-color: transparent;
         margin-top: 15px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     
     .wa {
