@@ -601,13 +601,20 @@ nav ul li a:hover {
 
 /* mobile phone */
 @media screen and (max-width:464px) {
+    html {
+        width: 100vmin;
+        border-color: blue;
+    }
+    body {
+        width: 100%;
+        background-color: #FF0707;
+    }
     .menu-toggle {
         display: flex;
     }
 
     nav {
-        max-width: 338px;
-        width: 100%;
+        width: 424px;
         display: flex;
         background-color: black ;
         /* padding: 20px 0; */
@@ -618,6 +625,12 @@ nav ul li a:hover {
         /* margin-left: 50px; */
         box-sizing: border-box;
         position: fixed;
+        justify-content: space-between;
+
+    }
+
+    nav .logo {
+        margin-left: 50px;
     }
 
     nav ul {
@@ -631,7 +644,7 @@ nav ul li a:hover {
         flex-direction: column;
         background-color: black;
         margin-top: 48px;
-        
+        margin: 0;
         transition: all 0.3s;
         opacity: 0;
     }
@@ -793,7 +806,7 @@ nav ul li a:hover {
     }
     
     .frame2 {
-        width: 100%;
+        width: 70%;
         height: auto;
         display: block;
         box-sizing: border-box;
@@ -934,7 +947,7 @@ nav ul li a:hover {
     }
     
     .educa {
-        width: 100%;
+        width: 200px;
         height: auto;
         font-size: 30px;
         color: #07F0FF;
