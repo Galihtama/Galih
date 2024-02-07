@@ -631,6 +631,7 @@ footer .card {
 footer .card  a {
     color: black;
     text-decoration: none;
+    font-weight: 700;
 }
 
 
