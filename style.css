@@ -16,6 +16,7 @@ body{
     overflow-x: hidden;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 /* Navbar */
 
@@ -597,6 +598,44 @@ nav ul li a:hover {
 }
 
 
+/* footer */
+footer {
+    width: 100%;
+    background-color: rgba(201, 138, 13, 0.747);
+    text-align: center;
+    padding:  1.3rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+
+
+footer .links a {
+    color: white;
+    padding: 2rem 1rem;
+    text-decoration: none; 
+    font-size: 1.2rem;
+}
+
+footer .links a:hover {
+    color: black;
+}
+
+footer .card {
+   margin-top: 1rem;
+   font-size: 0.8rem;
+}
+
+footer .card  a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
 /* media query */
 
 /* mobile phone */
@@ -652,7 +691,7 @@ nav ul li a:hover {
        
     }
 
-    nav ul.slide {
+    nav ul.slide.active {
         opacity: 1;
         transform: translateX(0);
     }
@@ -1211,6 +1250,24 @@ nav ul li a:hover {
         margin-right: 0;
     }
     
+    footer {
+        max-width: 381px;
+        width: 100%;
+        height: auto;
+        padding: 0.8rem 0;
+        margin-top: 0rem;
+        font-size: 7%;
+    }
+    footer .links a{
+        font-size: 0.7rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    footer .card {
+        font-size: 0.5rem;
+        padding: 0rem;
+        margin-top: 0.5rem;
+    }
     
     /* akhir contact */
 } 
