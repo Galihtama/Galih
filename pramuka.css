@@ -361,7 +361,8 @@ button {
         align-items: center;
         text-align: center;
         margin-left: 42%;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding: 1rem 0rem;
         cursor: pointer;
     }
     
