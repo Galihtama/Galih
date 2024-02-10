@@ -665,26 +665,31 @@ footer .card  a {
         /* margin-left: 50px; */
         box-sizing: border-box;
         position: fixed;
-
     }
 
     nav .logo {
         margin-left: 0px;
+        right: 0;
     }
 
     nav ul {
         position: absolute;
         right: 0;
         top: 0;
-        height: 80vh;
-        width: 60%;
+        height: 30vh;
+        width: 100%;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: left;
         flex-direction: column;
         background-color: rgb(158, 99, 10);
         margin-top: 50px;
         transition: all 0.5s;
         opacity: 0;
+    }
+
+    nav ul li {
+        right: -100%;
+        margin-left: 20px;
     }
 
     nav ul li a:hover {
@@ -809,6 +814,8 @@ footer .card  a {
         color: white;
         margin-left: 4px;
         font-size: 9px;
+        justify-content: end;
+        align-items: end;
     }
     
     .garis {
