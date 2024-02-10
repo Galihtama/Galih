@@ -193,7 +193,7 @@ button {
     
     .container {
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-color: black;
         border: 0cm;
         display: block;
@@ -207,7 +207,7 @@ button {
         display: block;
         background-color: black;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 4rem;
         justify-content: space-around;
         position: relative;
     }

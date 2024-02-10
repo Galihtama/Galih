@@ -159,6 +159,7 @@ button {
         border: 0cm;
         display: block;
         margin-top: 0px;
+        position: absolute;
     }
     
     .pembungkus {
@@ -166,7 +167,7 @@ button {
         height: auto;
         background-color: transparent;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 2rem;
         display: block;
     }
     
@@ -264,7 +265,8 @@ button {
         align-items: center;
         text-align: center;
         margin-left: 42%;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding: 3rem 0rem;
         cursor: pointer;
     }
     
