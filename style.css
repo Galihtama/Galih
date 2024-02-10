@@ -796,7 +796,7 @@ footer .card  a {
     }
     .hp {
         width: 100%;
-        display: flex;
+        display: block;
         align-items: end;
         background-color: transparent;
         padding-right: 0;
@@ -924,7 +924,7 @@ footer .card  a {
     }
     
     .gal {
-        margin-left: 51px;
+        margin-left: 45px;
         display: flex;
         box-sizing: border-box;
         
@@ -951,7 +951,7 @@ footer .card  a {
     }
     
     .class {
-        margin-left: 52px;
+        margin-left: 46px;
         display: flex;
         
     }
@@ -962,7 +962,7 @@ footer .card  a {
     }
     
     .sng {
-        margin-left: 46.5px;
+        margin-left: 41px;
         display: flex;
         box-sizing: border-box;
     }
