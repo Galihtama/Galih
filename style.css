@@ -649,6 +649,10 @@ footer .card  a {
         width: 100%;
         background-color: #FF0707;
     }
+
+    .menu-toggle.active {
+        display: block;
+    }
     .menu-toggle {
         display: flex;
     }
@@ -1265,6 +1269,8 @@ footer .card  a {
         padding: 0.8rem 0;
         margin-top: 0rem;
         font-size: 7%;
+        scroll-behavior: auto;
+        transition: all 0px;
     }
     footer .links a{
         font-size: 0.7rem;
