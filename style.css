@@ -24,7 +24,7 @@ nav {
     max-width: 1379px;
     width: 100%;
     display: flex;
-    background-color: black ;
+    background-color: rgba(0, 0, 0, 0.514) ;
     justify-content: space-around;
     /* padding: 20px 0; */
     color: #07F0FF;
@@ -277,7 +277,7 @@ nav ul li a:hover {
 
 .heading {
     font-size: 60px;
-    color: #07F0FF;
+    color: #a78413;
     align-items: center;
     text-align: center;
     margin-top: 60px;
@@ -285,7 +285,7 @@ nav ul li a:hover {
 }
 
 .heading span {
-    color: #FF0707;
+    color: rgba(184, 152, 11, 0.849);
 }
 
 .deksingkat {
@@ -660,7 +660,7 @@ footer .card  a {
     nav {
         width: 381px;
         display: flex;
-        background-color: black ;
+        background-color: rgba(0, 0, 0, 0.514) ;
         /* padding: 20px 0; */
         color: rgb(96, 172, 235);
         height: 50px;
@@ -690,15 +690,23 @@ footer .card  a {
         transition: all 0.5s;
         opacity: 0;
     }
-
+    
     nav ul li {
         right: -100%;
-        margin-left: 20px;
+        margin-left: 0;
+
     }
 
+    nav ul li:hover {
+        background-color: rgba(167, 132, 19, 0.363);
+    }
+
+    nav ul li a {
+        margin-left: 20px;
+    }
+    
     nav ul li a:hover {
-       color: rgb(48, 36, 10);
-       
+        color: rgb(48, 36, 10);
     }
 
     nav ul.slide.active {
